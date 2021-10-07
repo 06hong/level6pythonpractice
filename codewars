@@ -1,0 +1,29 @@
+def sum_two_smallest_numbers(numbers):
+    #numbers is a list
+    #sort the list
+    #add the first and second index
+    return numbers.sort()
+    
+sum_two_smallest_numbers([19, 5, 42, 2, 77])
+
+def compress(sentence):
+    
+    dt = sentence.lower().split(' ')
+    print(dt)
+    ls = ''
+    for el in dt:
+        ls += str(dt.index(el)) #index.() finds the first occurance of whatever is in t
+    return ls
+
+compress("Ask not what your COUNTRY can do for you ASK WHAT YOU CAN DO FOR YOUR country")
+
+def compress(sentence):
+    
+    dt = sentence.lower().split(' ')
+    print(dt)
+    ls = ''
+    for el in dt:
+        ls += str(dt.index(el)) #index.() finds the first occurance of whatever is in t
+    return ls
+
+compress("Ask not what your COUNTRY can do for you ASK WHAT YOU CAN DO FOR YOUR country")
